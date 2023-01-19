@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #0c1a27;
+	color: #FFF5EE;
+	font-size: 15px;
+	font-family: century gothic;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.body {
+	margin: 2% auto ;
+	width: 70%;
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #FFF5EE;
+}
+
+a:hover, a:active {
+	background-color: #FFF5EE;
+	color: #0c1a27;
+}
+
+.mainHeader  nav {
+	background-color: #D19E4F;
+	height: 50px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader  nav ul {
+	list-style: none;
+	margin: 2% auto;
+}
+
+.mainHeader  nav ul  li{
+	float: left;
+	display: inline;
+}
+
+.mainHeader  nav a:link, .mainHeader  nav a:visited {
+	color: #0c1a27;
+	display: inline-block;
+	padding: 10px 25px;
+	margin:0px;
+	height: 30px;
+}
+
+.mainHeader  nav a:hover, .mainHeader  nav a:active,
+.mainHeader  nav .active a:link, .mainHeader  nav .active a:visited {
+	background-color: #FFF5EE;
+	text-shadow: none;
+}
+
+.mainContent {
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+h2 {
+	margin: 25px auto 20px auto;
+}
+
+.content {
+	width: 50%;
+	float: right;
+}
+
+.top-content {
+	background-color: #0c1a27;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	padding: 3% 10%;
+	margin: 2% auto;
+}
+
+.paraspace {
+	margin-bottom: 25px;
+}
+
+.top-sidebar {
+	width: 40%;
+	float: left;
+	background-color: #0c1a27;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 2%;
+	padding: 2% 3%;
+}
+
+.top-sidebar img {
+	width: 	100%;
+	height: auto%;
+	Margin: 25px 0;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	float: left;
+}
+
+.top-sidebar img {
+  border-radius: 50%;
+  border: 5px solid #D19E4F;
+}
+
+.mainFooter{
+	width:100%;
+	height: 40px;
+	float: left;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	background-color: #D19E4F;
+	margin: 1.5% 0 0 0;
+}
+
+.mainFooter p {
+	width:92%;
+	margin: 10px auto;
+	color: #0c1a27;
+}
